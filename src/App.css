@@ -22,6 +22,11 @@ hr.line {
     text-align: center;
 }
 
+.room {
+    background-color: #17a2b8;
+    color: white;
+}
+
 .lobby {
     width: 400px;
     margin: auto;

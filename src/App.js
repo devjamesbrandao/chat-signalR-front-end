@@ -9,6 +9,7 @@ const App = () => {
   const [connection, setConnection] = useState();
   const [messages, setMessages] = useState([]);
   const [currentUser, setCurrentUser] = useState();
+  const [room, setRoom] = useState();
   const [users, setUsers] = useState([]);
 
   const joinRoom = async (user, room) => {
@@ -41,14 +42,15 @@ const App = () => {
       for (var i = 0; i <= passwordLength; i++) {
         var randomNumber = Math.floor(Math.random() * chars.length);
         id += chars.substring(randomNumber, randomNumber +1);
-       }
-
+      }
 
       await connection.invoke("JoinRoom", { user, room, id });
 
       setCurrentUser(id);
 
-        setConnection(connection);
+      setRoom(room);
+
+      setConnection(connection);
     } catch (e) {
       console.log("Erro: " + e);
       alert("Erro: " + e);
@@ -80,7 +82,8 @@ const App = () => {
               messages={messages} 
               users={users} 
               currentUser={currentUser}
-              closeConnection={closeConnection} 
+              room={room}
+              closeConnection={closeConnection}
         />}
   </div>
 }
