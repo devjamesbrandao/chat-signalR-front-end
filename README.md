@@ -1,4 +1,4 @@
-<h1 align="center"><strong>Front-end do chat desenvolvido com ASP.NET Core e SignalR</strong></h1>
+<h1 align="center"><strong>Front-end desenvolvido com React.js e Bootstrap para o projeto mini-chat</strong></h1>
 
 <hr/>
 
