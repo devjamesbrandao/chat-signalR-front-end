@@ -3,6 +3,10 @@
 <hr/>
 
 <p align="center">
+    <img src="/img/chat.gif" alt="Demo do chat hospedado no Azure" title="Demo do chat hospedado no Azure">
+</p> 
+
+<p align="center">
     <img src="/img/entrar-sala.png" alt="Tela inicial da aplicação" title="Tela inicial da aplicação">
 </p> 
 
