@@ -11,7 +11,7 @@
 </p> 
 
 <p align="center">
-    <img src="/img/tela-chat.png" alt="Tela de chat" title="Tela de chat">
+    <img src="/img/mensagens.png" alt="Tela de chat" title="Tela de chat">
 </p> 
 
 
