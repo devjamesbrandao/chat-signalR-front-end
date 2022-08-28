@@ -36,10 +36,12 @@ const App = () => {
       await connection.start();
 
       var chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-      var passwordLength = 12;
+
+      var currentUserIdLength = 12;
+
       var id = "";
 
-      for (var i = 0; i <= passwordLength; i++) {
+      for (var i = 0; i <= currentUserIdLength; i++) {
         var randomNumber = Math.floor(Math.random() * chars.length);
         id += chars.substring(randomNumber, randomNumber +1);
       }
