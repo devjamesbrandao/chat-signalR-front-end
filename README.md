@@ -1,4 +1,4 @@
-<h1 align="center"><strong>Criação de mini-chat para estudos sobre comunicação em tempo real com SignalR (Front-end)</strong></h1>
+<h1 align="center"><strong>Front-end do chat desenvolvido com ASP.NET Core e SignalR</strong></h1>
 
 <hr/>
 
